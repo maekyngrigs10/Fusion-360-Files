@@ -39,5 +39,29 @@
 }
 
 .des1{
+    border:3px grey solid;
+    width:175px;
+    height:100px;
     display:none;
+    background:lightgrey;
+    padding:10px;
+    border-radius:5%;
+}
+.des2{
+    border:3px grey solid;
+    width:175px;
+    height:100px;
+    display:none;
+    background:lightgrey;
+    padding:10px;
+    border-radius:5%;
+}
+.des3{
+    border:3px grey solid;
+    width:175px;
+    height:100px;
+    display:none;
+    background:lightgrey;
+    padding:10px;
+    border-radius:5%;
 }
