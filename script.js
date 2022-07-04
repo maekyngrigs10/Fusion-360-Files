@@ -17,5 +17,41 @@ $(".f3").click(function(){
     $(".f3").hide();
     $(".f1").hide();
 });
-
+    
+$(".f1").mousedown(function(event){
+    switch(event.which){
+    case 1:
+    alert('left mouse is being clicked');
+    break;
+        case 2:
+            alert('middle mouse is being clicked');
+            break;
+        case 3:
+            alert('right mouse is being clicked');
+            break;
+        default:
+            alert('nothing');
+}
+                   });
+$(".f1").mousedown(function(event){
+    switch(event.which){
+    case 1:
+    alert('contents:3 files (CAD) (Drawings) (Pictures)');
+    break;
+    }
+});
+$(".f2").mousedown(function(event){
+    switch(event.which){
+    case 1:
+    alert('contents: 2 files (CAD) (Drawings)');
+    break;
+    }
+});
+$(".f3").mousedown(function(event){
+    switch(event.which){
+    case 1:
+    alert('contents:2 files (Drawings) (Pictures)');
+    break;
+    }
+});
 
